@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+#circle {
+  position: absolute;
+  left: -75vh;
+  top: 50%;
+  transform: translate(0%, -50%) rotate(100deg);
+  border-radius: 50%;
+  width: 150vh;
+  height: 150vh;
+  border: 2px solid #dadada;
+  /* background-color: #222; */
+}
+.stripe {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -50%);
+  width: 100%;
+  height: 80px;
+  /* background-color: #fff; */
+  transform-origin: left;
+}
+
+.str1 {
+  transform: translate(0, -50%) rotate(-30deg);
+}
+.str2 {
+  transform: translate(0, -50%) rotate(-15deg);
+}
+.str3 {
+  transform: translate(0, -50%) rotate(0deg);
+}
+.str4 {
+  transform: translate(0, -50%) rotate(15deg);
+}
+.str5 {
+  transform: translate(0, -50%) rotate(30deg);
+}
+.first {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+}
+.sec {
+  opacity: 0.4;
+  padding-left: 30px;
+  width: 50%;
+  height: 100%;
+  font-size: 40px;
+  /* background-color: black; */
+}
+.sec h6 {
+  font-size: 1rem;
+  opacity: 0.5;
+  font-weight: 400;
+}
+.smallCircle {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #dadada;
+}
+
+#panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 5%;
+  height: 20%;
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  /* background-color: blue; */
+}
+
+.miniCircle {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 1vw;
+  height: 1vw;
+  opacity: 0.2;
+  background-color: #111;
+}

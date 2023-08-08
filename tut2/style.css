@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "myFont";
+  src: url('Heading-Now-Variable.ttf');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  font-family: myFont;
+}
+/* body::-webkit-scrollbar{
+  display: none;
+} */
+#page1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+#page1 h1 {
+  text-transform: uppercase;
+  font-size: 45vw;
+  font-weight: 999;
+  font-stretch: 260%;
+  white-space: nowrap;
+}
+#page2 {
+  width: 100%;
+  height: 100vh;
+}
+#page3 {
+  width: 100%;
+  height: 100vh;
+}
